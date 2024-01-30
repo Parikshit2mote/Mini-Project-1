@@ -1,0 +1,38 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: grey;
+    text-align: center;
+
+}
+
+#container1{
+    height: 50px;
+    width: 900px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.box1{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 20px;
+    line-height: 50px;
+}
